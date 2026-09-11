@@ -1,0 +1,21 @@
+{
+  "name": "task2-web-summarizer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx Webscrape2.ts",
+    "webscrape": "tsx Webscrape.ts",
+    "webscrape2": "tsx Webscrape2.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

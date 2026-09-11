@@ -1,0 +1,13 @@
+# Dependencies
+**/node_modules/
+
+# Environment variables and API keys
+**/.env
+
+# Build output
+**/dist/
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
